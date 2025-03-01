@@ -1,7 +1,7 @@
 import React from "react";
-
+import myimage from '../Assets/Images/error1.jpg'
 export default function Error() {
   return <div>
-    404 page not found
+    <img src={myimage}  />
   </div>;
 }
